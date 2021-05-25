@@ -12,6 +12,14 @@ key=asfasfadsf
 
 ![1621873707887](readme.assets/1621873707887.png)
 
+
+
+![h](readme.assets/h.gif)
+
+输入网查询条件直接回车即可进行查询
+
+
+
 ## 特点如下:
 
 
