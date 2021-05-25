@@ -12,7 +12,11 @@ key=asfasfadsf
 
 ![1621873707887](readme.assets/1621873707887.png)
 
+目录结构如下:
 
+![1621919190019](readme.assets/1621919190019.png)
+
+运行如下
 
 ![h](readme.assets/h.gif)
 
