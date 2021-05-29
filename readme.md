@@ -53,11 +53,11 @@ E:.
 
 ### 回车响应
 
-![huiche](https://raw.githubusercontent.com/naozibuhao/fofatools/main/readME.assets/huiche.gif)
+![huiche](https://raw.githubusercontent.com/naozibuhao/fofatools/main/readme.assets/huiche.gif)
 
 ### 右击浏览器打开
 
-![liulanqi](readME.assets/liulanqi.gif)
+![liulanqi](https://raw.githubusercontent.com/naozibuhao/fofatools/main/readme.assets/liulanqi.gif)
 
 ### 右击telnet端口
 
