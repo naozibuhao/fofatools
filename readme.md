@@ -25,21 +25,21 @@
 
 ### 目录结构如下
 
-E:.
-│  config.properties -------------------配置文件
-│  dwtl.wav
-│  fofa_bate.jar      -------------------启动主程序
-│  Super-PortScan.py -----------------端口扫描
-│
-├─fofa_lib                 -------------------依赖包
-│      fastjson-1.2.62.jar
-│      flatlaf-1.0-rc1.jar
-│      fofa-core-1.0.2.RELEASE.jar
-│      jackson-annotations-2.9.10.jar
-│      jackson-core-2.9.9.jar
-│      jackson-databind-2.9.10.4.jar
-│
-└─tmp------------------------------临时文件夹,可以不用,但不能没有
+E:.<br>
+│  config.properties -------------------配置文件<br>
+│  dwtl.wav<br>
+│  fofa_bate.jar      -------------------启动主程序<br>
+│  Super-PortScan.py -----------------端口扫描<br>
+│<br>
+├─fofa_lib                 -------------------依赖包<br>
+│      fastjson-1.2.62.jar<br>
+│      flatlaf-1.0-rc1.jar<br>
+│      fofa-core-1.0.2.RELEASE.jar<br>
+│      jackson-annotations-2.9.10.jar<br>
+│      jackson-core-2.9.9.jar<br>
+│      jackson-databind-2.9.10.4.jar<br>
+│<br>
+└─tmp------------------------------临时文件夹,可以不用,但不能没有<br>
 
 
 
