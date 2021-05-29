@@ -1,57 +1,117 @@
 # 大威天龙_fofa无边
 
-## 使用说明:
+# **没有导出!没有导出!!没有导出!!!**
 
-该jar文件同目录下创建config.properties文件
+## 变更说明
 
-文件中添加
-
-email=123123@11.com
-
-key=asfasfadsf
-
-![1621873707887](readme.assets/1621873707887.png)
-
-目录结构如下:
-
-![1621919190019](readme.assets/1621919190019.png)
-
-运行如下
-
-![h](readme.assets/h.gif)
-
-输入网查询条件直接回车即可进行查询
+### 2021-5-29  V1.2
 
 
 
-## 特点如下:
+1. 修改UI样式,相同视觉范围内显示更多信息
+2. 搜索条件输入框中响应回车键,输入完以后直接回车获得结果
+3. 添加TAB页签关闭按钮
+4. 表格隔行显色
+5. 配置文件自定义返回表头
+6. 修改右击使用默认浏览器打开,改为右击菜单
+7. 添加一键telnet对方端口,省去打开命令行操作
+8. 添加一键redis未授权访问,省去打开命令行操作
+9. 使用Super-portScan进行全端口扫描
+10. 添加1个彩蛋
+
+### 目录结构如下
+
+E:.
+│  config.properties -------------------配置文件
+│  dwtl.wav
+│  fofa_bate.jar      -------------------启动主程序
+│  Super-PortScan.py -----------------端口扫描
+│
+├─fofa_lib                 -------------------依赖包
+│      fastjson-1.2.62.jar
+│      flatlaf-1.0-rc1.jar
+│      fofa-core-1.0.2.RELEASE.jar
+│      jackson-annotations-2.9.10.jar
+│      jackson-core-2.9.9.jar
+│      jackson-databind-2.9.10.4.jar
+│
+└─tmp------------------------------临时文件夹,可以不用,但不能没有
 
 
 
-* 根据官方API进行编写
+## 整体效果如下
 
-* 多Tab,每次查询都会生成一个tab页面,对历史查询内容进行暂存,方便对比
+![1622302041701](readME.assets/1622302041701.png)
 
-* ![e](readme.assets/e.gif)
+### 启动过程
 
-* 对结果列进行自定义
+过程如下,启动后4秒打开主界面
 
-  ![a](readme.assets/a-1621873484844.gif)
-
-* 双击表头对表格进行排序,快速找到目标左右范围内数据
-
-* ![b](readme.assets/b.gif)
-
-* 鼠标放置表格单元格中悬浮显示表格内容
-
-* ![c](readme.assets/c.gif)
-
-* <h3>右击<h3>单元格,使用默认浏览器打开指定地址(没有区分协议,所有的内容都是按照浏览器打开,后面会进行修改)![d](readme.assets/d.gif)
-
-  ## 其他bug及未处理内容
-
-  1. 打开tab页面没有关闭按钮
-  2. 没有显示条数
+![init](readME.assets/init.gif)
 
 
 
+### 回车响应
+
+![huiche](readME.assets/huiche.gif)
+
+### 右击浏览器打开
+
+![liulanqi](readME.assets/liulanqi.gif)
+
+### 右击telnet端口
+
+![telnet](readME.assets/telnet.gif)
+
+
+
+### 右击扫描全端口
+
+![portscn](readME.assets/portscn.gif)
+
+### 右击redis未授权访问
+
+![redis](readME.assets/redis.gif)
+
+### 自定义表格头
+
+支持表格头如下:
+
+```
+ip,port,domain,title,country,province,city,country_name,header,protocol,banner,cert,isp,as_number,as_organization,latitude,longitude
+```
+
+1. 表格头之间使用","间隔调整配置文件中表头顺序即可调整在GUI中显示的顺序
+2. 表格头后面添加:1 在大威天龙中将默认被选中,否则默认不选中
+
+![1622302728738](readME.assets/1622302728738.png)
+
+### 结果数量及关闭按钮
+
+![1622303018001](readME.assets/1622303018001.png)
+
+## 配置文件说明
+
+```
+email=邮箱
+key=key
+#选择排序要显示的列, 列名:int[1/0] title:1 表示title这一列默认选中 0 或者啥也没有表示非默认选中 
+#不要填写host 已经默认添加了,你多加也没用 
+fields=ip:1,port:1,domain:1,title:1,country,province,city,country_name,header,protocol,banner,cert,isp,as_number,as_organization,latitude,longitude
+#fields=host,title,ip,domain,port,country
+# python3位置,如果设置了环境变量,可直接填写python3 即可为端口扫描做准备
+pythonpath=python38
+#临时文件夹,用于存放window系统所有的命令,及所有系统下所有全端口扫描结果HTML文件
+tmp=tmp
+# 测试redis未授权访问 值为redis-cli的环境变量,或者redis-cli的物理路径
+redis=redis-cli
+# 为以后直接awvs做准备
+awvsurl=1
+awvskey=1
+```
+
+# 再说一遍,没有导出!没有导出!!没有导出!!!
+
+如果需要导出数据,可以在表格中全选,Ctrl+C,打开一个EXCEL,然后Ctrl+V
+
+导出功能作者认为没必要
