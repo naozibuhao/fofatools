@@ -41,19 +41,19 @@ E:.
 
 ## 整体效果如下
 
-![1622302041701](readME.assets/1622302041701.png)
+![1622302041701](https://raw.githubusercontent.com/naozibuhao/fofatools/main/readme.assets/1622302041701.png)
 
 ### 启动过程
 
 过程如下,启动后4秒打开主界面
 
-![init](readME.assets/init.gif)
+![init](https://raw.githubusercontent.com/naozibuhao/fofatools/main/readme.assets/init.gif)
 
 
 
 ### 回车响应
 
-![huiche](readME.assets/huiche.gif)
+![huiche](https://raw.githubusercontent.com/naozibuhao/fofatools/main/readME.assets/huiche.gif)
 
 ### 右击浏览器打开
 
@@ -61,17 +61,17 @@ E:.
 
 ### 右击telnet端口
 
-![telnet](readME.assets/telnet.gif)
+![telnet](https://raw.githubusercontent.com/naozibuhao/fofatools/main/readme.assets/telnet.gif)
 
 
 
 ### 右击扫描全端口
 
-![portscn](readME.assets/portscn.gif)
+![portscn](https://raw.githubusercontent.com/naozibuhao/fofatools/main/readme.assets/portscn.gif)
 
 ### 右击redis未授权访问
 
-![redis](readME.assets/redis.gif)
+![redis](https://raw.githubusercontent.com/naozibuhao/fofatools/main/readme.assets/redis.gif)
 
 ### 自定义表格头
 
@@ -84,11 +84,11 @@ ip,port,domain,title,country,province,city,country_name,header,protocol,banner,c
 1. 表格头之间使用","间隔调整配置文件中表头顺序即可调整在GUI中显示的顺序
 2. 表格头后面添加:1 在大威天龙中将默认被选中,否则默认不选中
 
-![1622302728738](readME.assets/1622302728738.png)
+![1622302728738](https://github.com/naozibuhao/fofatools/blob/main/readme.assets/1622302728738.png?raw=true)
 
 ### 结果数量及关闭按钮
 
-![1622303018001](readME.assets/1622303018001.png)
+![1622303018001](https://github.com/naozibuhao/fofatools/blob/main/readme.assets/1622303018001.png?raw=true)
 
 ## 配置文件说明
 
